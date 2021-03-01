@@ -8,6 +8,7 @@
     <title>CV</title>
   </head>
   <body>
+    
     <header>
       <img
         src="img/PinClipart.com_blonde-hair-clipart_5749221.png"
@@ -21,54 +22,58 @@
           well. I have no experience in this area.
         </p>
         <h3>Contacts</h3>
-        <p>Email: flfforwork@gmail.com</p>
-        <p>telegram: @RLF_12</p>
+        <ul>
+          <li>Email: flfforwork@gmail.com</li>
+          <li>telegram: @RLF_12</li>
+        </ul>        
       </div>
     </header>
     <main>
-      <h2>Skills and experience</h2>
-      <div class="skills_exp">
-        <div class="skills">
-          <h3>Skills</h3>
-          <ul>
-            <li>HTML & CSS</li>
-            <li>Basic JavaScript</li>
-            <li>Basic Pyton</li>
-            <li>GIT</li>
-          </ul>
+      <article>
+        <h2>Skills and experience</h2>
+        <div class="skills_exp">
+          <section class="skills">
+            <h3>Skills</h3>
+            <ul>
+              <li>HTML & CSS</li>
+              <li>Basic JavaScript</li>
+              <li>Basic Pyton</li>
+              <li>GIT</li>
+            </ul>
+          </section>
+          <section class="code">
+            <h3>Sample code</h3>
+            <code>
+              <span
+                >/**<br />
+                *Create a string of "bu" with different separator<br />
+                *@param {number} n number of "bu"<br />
+                *@param {string} separator any separator<br />
+                *@param {string} workpiece another word instead of "bu"<br />
+                *@returns {string} string of "bu" or something<br />
+                */<br
+              /></span>
+              function bububu(n, separator="", workpiece="bu") {<br />
+              result = "";<br />
+              for (let i = 1; i &lt;= n; i++) {<br />
+              result += workpiece;<br />
+              if (i &lt; n) result += separator; <br />
+              } <br />
+              return result<br />
+              }<br />
+            </code>
+          </section>
+          <section class="education">
+            <h3>Education</h3>
+            <ul>
+              <li>Web development for beginners: HTML and CSS from Stepic</li>
+              <li>Programming in Python from Stepic</li>
+            </ul>
+            <h2>English</h2>
+            Pre-intermediate
+          </section>
         </div>
-        <div class="code">
-          <h3>Sample code</h3>
-          <code>
-            <span
-              >/**<br />
-              *Create a string of "bu" with different separator<br />
-              *@param {number} n number of "bu"<br />
-              *@param {string} separator any separator<br />
-              *@param {string} workpiece another word instead of "bu"<br />
-              *@returns {string} string of "bu" or something<br />
-              */<br
-            /></span>
-            function bububu(n, separator="", workpiece="bu") {<br />
-            result = "";<br />
-            for (let i = 1; i &lt;= n; i++) {<br />
-            result += workpiece;<br />
-            if (i &lt; n) result += separator; <br />
-            } <br />
-            return result<br />
-            }<br />
-          </code>
-        </div>
-        <div class="education">
-          <h3>Education</h3>
-          <ul>
-            <li>Web development for beginners: HTML and CSS from Stepic</li>
-            <li>Programming in Python from Stepic</li>
-          </ul>
-          <h2>English</h2>
-          Pre-intermediate
-        </div>
-      </div>
+      </article>
     </main>
     <footer>
       <div class="github">
@@ -83,5 +88,6 @@
         /></a>
       </div>
     </footer>
+  
   </body>
 </html>
