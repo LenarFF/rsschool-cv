@@ -42,7 +42,7 @@ function bububu(n, separator="", workpiece="bu") {
 
 ### Experience
 
-in future maybe
+no
 
 ### Education
 
