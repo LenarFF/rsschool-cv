@@ -1,0 +1,66 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+body {
+  font-size: 24px;
+  width: 900px;
+  margin-top: 30px;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header img {
+  height: 450px;
+  margin-right: 20px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+h3 {
+  background-color: black;
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.person_info p {
+  margin-bottom: 30px;
+}
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.skills_exp {
+  display: flex;
+  justify-content: center;
+}
+li {
+  list-style-position: inside;
+}
+.code {
+  margin: 0 30px;
+}
+span {
+  color: seagreen;
+}
+footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  min-height: 70px;
+  align-items: center;
+}
+footer img {
+  height: 30px;
+  background-color: white;
+}
+
+.github a {
+  color: white;
+}
